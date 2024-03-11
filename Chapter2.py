@@ -11,3 +11,8 @@ x = 6
 y = 8
 print('area =', x*y)
 print('perimeter =', (x+y)*2)
+
+# Exercise 3
+Temperature = 1
+print((Temperature * 1.8) + 32)
+
