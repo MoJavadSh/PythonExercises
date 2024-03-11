@@ -22,4 +22,11 @@ print(Radius)
 print("perimeter =", 2*Radius*3.14)
 print("area =", 3.14*Radius**2)
 
-
+# Exercise 5
+FirstNum = 19
+SecondNum = 5
+Sum = FirstNum + SecondNum
+difference = FirstNum - SecondNum
+multiplication = FirstNum * SecondNum
+division = FirstNum / SecondNum
+print(Sum, difference, multiplication, division)
