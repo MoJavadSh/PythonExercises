@@ -36,4 +36,10 @@ x = 89
 y = 57
 z = 45
 average = (x + y + z) / 3
-print(average)
+print('Average of', x,',', y,',', z, '=', average)
+
+# Exercise 7
+base = 6
+height = 19
+area = (base * height) / 2
+print('Area =', area)
