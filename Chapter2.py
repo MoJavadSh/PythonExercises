@@ -50,3 +50,9 @@ age = 21
 yearOfBirth = date.today().year - age
 print(yearOfBirth)
 print('Year of 100 Years-Old Birth is ', yearOfBirth + 100)
+
+# Exercise 9
+num1 = 42
+num2 = 13
+result = num1 + num2
+print(result)
