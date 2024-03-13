@@ -30,3 +30,10 @@ difference = FirstNum - SecondNum
 multiplication = FirstNum * SecondNum
 division = FirstNum / SecondNum
 print(Sum, difference, multiplication, division)
+
+# Exercise 6
+x = 89
+y = 57
+z = 45
+average = (x + y + z) / 3
+print(average)
