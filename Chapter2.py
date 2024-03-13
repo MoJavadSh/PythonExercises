@@ -1,3 +1,4 @@
+from datetime import date
 
 # Exercise 1
 x = 5
@@ -43,3 +44,9 @@ base = 6
 height = 19
 area = (base * height) / 2
 print('Area =', area)
+
+# Exercise 8
+age = 21
+yearOfBirth = date.today().year - age
+print(yearOfBirth)
+print('Year of 100 Years-Old Birth is ', yearOfBirth + 100)
