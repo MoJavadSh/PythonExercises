@@ -15,15 +15,15 @@
 # print("The square is", square)
 # print("The cube is", cube)
 
-# Exercise 3-1-3
+# # Exercise 3-1-3
+# number = int(input("Enter Number 1 : "))
+# number2 = int(input("Enter Number 2 : "))
+# power = number ** number2
+# print("The power is", power)
+
+# Exercise 3-1-4
 number = int(input("Enter Number 1 : "))
 number2 = int(input("Enter Number 2 : "))
-power = number ** number2
-print("The power is", power)
-
-
-
-
-
-
-
+number3 = int(input("Enter Number 3 : "))
+average = (number + number2 + number3)/3
+print("The average is", average)
