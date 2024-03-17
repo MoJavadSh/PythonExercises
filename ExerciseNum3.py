@@ -27,11 +27,15 @@
 # number3 = int(input("Enter Number 3 : "))
 # average = (number + number2 + number3)/3
 
-# Exercise 3-2-1 -----------------------------------------
-s = input("Enter String")
-print("number of all characters is: ", len(s))
-sentences = s.count(".") + s.count("?") + s.count("!") + s.count(";")
-print("Number of sentences is: ", sentences)
-print("Number of english letters is: ", s.count("a"))
-print("Number of words is: ", s.count(" ")+1 )
+# # Exercise 3-2-1 -----------------------------------------
+# s = input("Enter String")
+# print("number of all characters is: ", len(s))
+# sentences = s.count(".") + s.count("?") + s.count("!") + s.count(";")
+# print("Number of sentences is: ", sentences)
+# print("Number of english letters is: ", s.count("a"))
+# print("Number of words is: ", s.count(" ")+1 )
+
+# Exercise 3-2-3 -----------------------------------------
+s = input("Enter a number: ").strip()
+print(s.isnumeric())
 
